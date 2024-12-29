@@ -1,0 +1,152 @@
+<!DOCTYPE html> <!-- es una declaracion y define que este documento es un documento HTML5--> 
+<html lang="es">
+  <head>
+    <title>Mi Primera Pagina</title>
+    <link rel = "icon" type = "image/x-icon" href = "/Documentos/WEB/HTML/imagenes/Favicon.ico"> <!--Icono de la pestaña-->
+
+    <!--Imagen de fondo-->
+    <style>
+    body {
+      background-image: url('photo-1588421357574-87938a86fa28.jpg'); 
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: aqua;
+    }
+    </style>
+
+  </head>
+  
+  <body>
+
+    <!--con Crtl + / puedes poner un bloque de codigo en comentarios-->
+    <!-- <h1 style="font-size:60px;">Hey</h1>
+    <h1>Esto es un encabezado</h1>
+    <h2>Esto es un encabezado</h2>
+    <h3>Esto es un encabezado</h3>
+    <h4>Esto es un encabezado</h4>
+    <h5>Esto es un encabezado</h5>
+    <h6>Esto es un encabezado</h6> -->
+
+    <h1>Esto es un encabezado</h1>
+    <p>Esto es un parrafo</p>
+    <hr> <!-- etiqueta para poner una linea horizontal -->
+    
+    <main> <!--Representa el contenido principal de la pagina-->
+      <h1>Mi primera pagina Web</h1>
+      
+      <!--<a href="#">Lo que Estudio</a> Son enlace que no llevan a ningun lado pero son enlaces-->
+      <a href="#">Lo que Estudio</a>
+      <a href="#Dondevivo">Donde vivo</a>
+      <a href="#Mideportefavorito">Mi deporte favorito</a>
+      <a href="#MyEnglishLevel">My English Level</a>
+
+
+      <br> <!--Esta etiqueta es para salto de linea -->
+      <h4>Mi biografia</h4>
+      <p>Me llamo Jose Joaquin</p>
+      <p>Tengo 21 años</p>
+      <pre>
+        Mi fecha de nacimiento:
+        
+        13 marzo del 2002
+
+        Mi idolo de siempre ha sido messi y voy a mostar una foto suya, 
+        si quereis ver mas fotos de messi dar click a 
+        <!--Enlace-->
+        <a href="https://www.google.com/search?q=messi%20portada&tbm=isch&hl=es&tbs=il:ol&rlz=1C1CHBF_esES815ES815&sa=X&ved=0CAAQ1vwEahcKEwjw-uGknpuAAxUAAAAAHQAAAAAQAg&biw=1176&bih=1137#imgrc=92_fl1erFANqUM"  target="_blank" rel="noopener noreferrer">ver mas fotos de messi </a>
+      </pre>
+      <!--Enlace con una imagen-->
+      <a href="https://www.google.com/search?q=messi%20portada&tbm=isch&hl=es&tbs=il:ol&rlz=1C1CHBF_esES815ES815&sa=X&ved=0CAAQ1vwEahcKEwjw-uGknpuAAxUAAAAAHQAAAAAQAg&biw=1176&bih=1137#imgrc=92_fl1erFANqUM" target="_blank" rel="noopener noreferrer">
+        <img src = "c:\Users\Jose\Downloads\gettyimages-955410340-612x612.jpg" alt="Aqui se encuentra la foto de messi" style="width: 100px;height:120px;"> 
+      </a>
+       
+
+      <div><!--Lista desordenada-->
+        <h4>Lista Equipos de <em>Messi</em></h4><!--Para poner texto en cursiva ponemos em-->
+        <ul>
+          <li>Rosario</li>
+          <li><strong>Barca</strong></li><!--Strong sirve para remarcar un texto-->
+          <li>Psg</li>
+          <li>Miami</li>
+        </ul>
+        
+        <!--Lista ordenada-->
+        <h4>Lista de Titulos(del mas importante al que menos)</h4>
+        <ol>
+          <li>Campeonato del Mundo</li>
+          <li>Champions league</li>
+          <li>La liga</li>
+          <li>Copa del Rey</li>
+          <li><s>Copa Libertadores</s></li> <!--Etiqueta s para tachar texto-->
+          <li>...</li>
+        </ol>
+      </div>
+      
+    
+    
+      <!--Formulario-->
+      <form action="/enviar-respuesta"> 
+        <!--Botones de radio-->
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" name="interior-exterior" checked>Interior
+        </label> <!--el checked te marca por defecto-->
+
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+        </label> 
+        
+        <br>
+        <!--Casillas de Verificacion-->
+        <label for="humilde"><input id="humilde" type="checkbox" name="personalidad" checked>Humilde</label>
+        <label for="empatico"><input id="empatico" type="checkbox" name="personalidad">Empatico</label>
+        <label for="amable"><input id="amable" type="checkbox" name="personalidad">Amable</label>
+
+        <!--Texto y boton Enviar-->
+        <input type="text" placeholder="URL de la foto de messi" required>
+        <button type="submit">Enviar</button>
+      </form>
+
+
+      <hr>
+      <p> <h4 id="LoqueEstudio">Lo que Estudio</h4>Estudio ingenieria informatica en la Universidad de Cádiz
+        y actualmente estoy en 2 de carrera, me esta costando un poco
+        pero confio en que algun dia lo lleve para delante </p>
+      <p> <h4 id="Dondevivo">Donde vivo</h4>Soy de Cádiz Capital y es una ciudad perfecta, por lo menos para mi,
+        para vivir ya que tenemos la mayoria de cosas que necesitamos al lado 
+        nuestro</p>
+      <p> <h4 id="Mideportefavorito">Mi deporte favorito</h4>Mi deporte favorito es el futbol y mis equipos preferidos son el Cadiz
+        y el Barca desde siempre, ambos equipos estan en primera y soy socio del 
+        Cadiz, por tanto voy al estadio y todo
+      </p>
+      <p lang="en"> <h4 id="MyEnglishLevel">My English Level</h4>I am speak a little bit english because I improved my english in all of 
+        my life. This language for my carrer is really important, If I want to go 
+        to a important job out of Spain
+      </p> 
+     
+      <img src="c:\Users\Jose\Downloads\balon-futbol-computadora-portatil-ilustracion-3d-fondo-campo_771335-25880.avif" alt="Workplace" usemap="#workmap" style="width: 270px; height: 150px;">
+
+      <!--Mapa de imagen-->
+      <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Ordenador" href="https://www.google.com/search?q=ordenador+y+un+balon+de+futbol+en+una+foto&tbm=isch&ved=2ahUKEwjo2oHModCAAxXyricCHTvDCQkQ2-cCegQIABAA&oq=ordenador+y+un+balon+de+futbol+en+una+foto&gs_lcp=CgNpbWcQAzoICAAQsQMQgwE6BQgAEIAEOggIABCABBCxAzoHCAAQigUQQzoKCAAQigUQsQMQQzoECAAQHlC_DFijX2CEYWgGcAB4AoABkQKIAcEmkgEHMzQuMTMuMZgBAKABAaoBC2d3cy13aXotaW1nsAEAwAEB&sclient=img&ei=aeLTZKiCB_LdnsEPu4anSA&bih=773&biw=1707&rlz=1C1CHBF_esES815ES815#imgrc=dgAH521YEYgMNM">
+        <area shape="circle" coords="230,110,20" alt="Balon de futbol" href="https://www.google.com/search?q=ordenador+y+un+balon+de+futbol+en+una+foto&tbm=isch&ved=2ahUKEwjo2oHModCAAxXyricCHTvDCQkQ2-cCegQIABAA&oq=ordenador+y+un+balon+de+futbol+en+una+foto&gs_lcp=CgNpbWcQAzoICAAQsQMQgwE6BQgAEIAEOggIABCABBCxAzoHCAAQigUQQzoKCAAQigUQsQMQQzoECAAQHlC_DFijX2CEYWgGcAB4AoABkQKIAcEmkgEHMzQuMTMuMZgBAKABAaoBC2d3cy13aXotaW1nsAEAwAEB&sclient=img&ei=aeLTZKiCB_LdnsEPu4anSA&bih=773&biw=1707&rlz=1C1CHBF_esES815ES815#imgrc=dgAH521YEYgMNM", onclick="myFunction()">
+      </map>
+      
+    </main>
+
+    <script>
+      function myFunction() {
+        alert("Cuidado con el balon");
+      }
+    </script>
+    
+    <!--Pie de pagina-->
+    <footer>
+     <p><small> Sin derechos de Autor - <a href="https://www.freedcodecamp.org/espanol/">freeCodeCamp.org</a></p></small>
+    </footer>
+
+
+  </body>
+
+
+</html>

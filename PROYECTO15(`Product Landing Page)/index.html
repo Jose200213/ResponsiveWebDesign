@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven - Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <img id="header-img" src="libro-abierto.png" alt="Book Haven Logo">
+        <nav id="nav-bar">
+            <a href="#featured-books" class="nav-link">Featured Books</a>
+            <a href="#video-section" class="nav-link">Discover More</a>
+            <a href="#form-section" class="nav-link">Subscribe</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <h1>Welcome to Book Haven</h1>
+            <p>Your gateway to exclusive books and deals.</p>
+        </section>
+
+        <!-- Featured Books Section -->
+        <section id="featured-books" class="features">
+            <h2>Explore Our Collection</h2>
+            <div class="features-container">
+                <div class="feature">
+                    <img src="GreatAdventure.jpg" alt="Book 1">
+                    <h3>Bestseller: The Great Adventure</h3>
+                    <p>Now for only <strong>$19.99</strong>!</p>
+                </div>
+                <div class="feature">
+                    <img src="Bookknowledge.jpg" alt="Book 2">
+                    <h3>New Arrival: The Book of Knowledge</h3>
+                    <p>Special price: <strong>$24.99</strong>.</p>
+                </div>
+                <div class="feature">
+                    <img src="Whuteringheights.jpg" alt="Book 3">
+                    <h3>Classic: Whutering Heights</h3>
+                    <p>Just <strong>$9.99</strong> for a limited time!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section id="video-section">
+            <h2>Why Choose Book Haven?</h2>
+            <iframe id="video" src="https://www.youtube.com/embed/8r1ydbIxGiU" frameborder="0" allowfullscreen></iframe>
+        </section>
+
+        <!-- Subscription Form Section -->
+        <section id="form-section">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for exclusive deals and updates.</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input id="email" name="email" type="email" placeholder="Enter your email" required>
+                <input id="submit" type="submit" value="Subscribe">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Book Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>

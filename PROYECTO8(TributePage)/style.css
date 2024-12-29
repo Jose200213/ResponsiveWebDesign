@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7e6; /* Fondo verde clarito */
+    color: #2e2e2e;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#main {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #f0fff4; /* Color de caja: un tono verde muy suave */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    border: 2px solid #b3e6b3; /* Borde verde pastel */
+}
+
+#title {
+    font-size: 2.5em;
+    color: #006622; /* Verde oscuro para el título */
+    margin-bottom: 20px;
+}
+
+#img-div {
+    margin: 20px 0;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #b3e6b3; /* Borde de la imagen en verde pastel */
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #4d774d; /* Verde medio para el pie de imagen */
+}
+
+#tribute-info {
+    margin: 20px 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #355e3b; /* Verde bosque para el texto */
+}
+
+#tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #228B22; /* Verde fuerte para el enlace */
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #ccffcc; /* Fondo verde clarito para el enlace */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#tribute-link:hover {
+    background-color: #99e699; /* Cambio de color al pasar el cursor */
+    color: #004d00; /* Verde más oscuro para el texto al hacer hover */
+}
